@@ -15,15 +15,20 @@ sequenceDiagram
 
 ## 2nd graph
 
+```mermaid
 flowchart LR
 
 A[Hard] -->|Text| B(Round)
 B --> C{Decision}
 C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
+```
+
+
 
 ## 3rd graph 
 
+```mermaid
 gantt
     section Section
     Completed :done,    des1, 2014-01-06,2014-01-08
@@ -33,10 +38,11 @@ gantt
     Parallel 3   :         des5, after des3, 1d
     Parallel 4   :         des6, after des4, 1d
     
+ ```
     
-    
-    ## 4th graph
-    
+ ## 4th graph
+ 
+ ```mermaid
     classDiagram
 Class01 <|-- AveryLongClass : Cool
 <<Interface>> Class01
@@ -55,10 +61,11 @@ class Class10 {
 }
 
 
-
+```
 
 ## 5th graph
 
+```mermaid
 stateDiagram-v2
 [*] --> Still
 Still --> [*]
@@ -67,7 +74,7 @@ Moving --> Still
 Moving --> Crash
 Crash --> [*]
 
-
+```
 
 
 
